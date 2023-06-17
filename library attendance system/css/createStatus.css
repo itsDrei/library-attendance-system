@@ -1,0 +1,23 @@
+.create-status-area{
+    width: 300px;
+    height: 150px;
+    background: rgba(241, 241, 241, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(83, 83, 83, 0.32);
+    border: 1px solid;
+}
+input[type="text"]{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.status-box{
+
+}

@@ -1,0 +1,31 @@
+body {
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+/* From https://css.glass */
+  
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 3% 0 5% 0;
+}
+label, input{
+    font-family: 'Roboto', sans-serif;
+}
+
+

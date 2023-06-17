@@ -1,0 +1,7 @@
+.col-md-5{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -2%);
+    width: 900px;
+}

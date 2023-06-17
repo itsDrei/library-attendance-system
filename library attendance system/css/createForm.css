@@ -1,0 +1,86 @@
+body {
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    max-width: 90%;
+    margin:0 auto;
+    padding: 20px;
+    height: 128vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    /* From https://css.glass */
+        background: rgba(229, 223, 223, 0.24);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.8px);
+        -webkit-backdrop-filter: blur(5.8px);
+        border: 1px solid rgba(229, 223, 223, 0.32);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+}
+.empForm label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.empForm input[type="text"],
+.empForm input[type="email"],
+.empForm input[type="tel"],
+.empForm input[type="date"],
+.empForm select {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.empForm input[type="text"]:focus,
+.empForm input[type="email"]:focus,
+.empForm input[type="tel"]:focus,
+.empForm input[type="date"]:focus,
+.empForm select:focus {
+    outline: none;
+}
+.signUp {
+    padding: 3% 6% 3% 6%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 81, 0);
+    margin-top: 5%;
+}
+
+.sign {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.sign, .signUp{
+    position: absolute;
+    right: 10%;
+}
