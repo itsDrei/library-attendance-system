@@ -50,12 +50,10 @@
                   <button type="submit" class="btn btn-success btn-block" target="_blank">Login</button>
                   <br>
                   <br>
-              <a style="font-size:13px; color:black;" href="registration.php">Register Account</a>
+              <a style="font-size:13px; color:black;" href="registration.php">Register Your Account</a>
                   </center>
                 </div>
                
-           
-       
         </form>
     </div>
  
